@@ -1,3 +1,5 @@
+#!/bin/bash
+
 
 #### java install ########
 sudo apt-get update -y
@@ -16,6 +18,5 @@ sudo apt-get install jenkins -y
 
 ### jenkins check ########
 
-sudo systemctl status jenkins
 sudo systemctl start jenkins
 sudo systemctl enable jenkins
